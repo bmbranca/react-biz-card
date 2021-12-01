@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 325px;
+    min-height: 100vh;
+    background-color: #23252C;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+/* info */
+
+img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container h1{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.info-container a {
+    margin-bottom: 10px;
+}
+
+.name {
+    text-align: center;
+}
+
+.title {
+    color: #F3BF99;
+}
+
+.button-container {
+    display: flex;
+}
+
+.btn {
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+
+.email-btn {
+    background-color: #fff;
+    color: black;
+    margin-left: 2px;
+}
+
+.email-btn:hover {
+    background: #D1D5DB;
+}
+
+.linked-btn {    
+    background-color: #297FE5;
+    color: #fff;
+    margin-right: 2px;
+}
+
+.linked-btn:hover {
+    filter: brightness(110%);
+}
+
+.email-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: .75rem;
+}
+
+.email-link:hover {
+    color: #fff;
+    text-decoration: underline; 
+}
+
+
+/* About & Interests */
+
+.bottom-wrapper {
+    padding: 0 30px;
+}
+
+.bottom-wrapper h3 {
+    margin-bottom: 0;
+}
+
+.bottom-wrapper p {
+    margin-top: 0;
+}
+
+
+/* Personal Mantra */
+.mantra {
+    background: #161619;
+    padding-block: 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.mantra h4{
+    margin: 0;
+    padding: 0;
+    color: #F3BF99;
+}
